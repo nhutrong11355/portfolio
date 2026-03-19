@@ -1,12 +1,14 @@
-# Nguyen Nhu Trong
+# 👋 Nguyen Nhu Trong
 
-**Software Engineer**
+**💼 Software Engineer**
 
-📍 Da Nang, Vietnam · 📧 nguyennhutrong69@gmail.com · 📞 0948 847 448
+[![Location](https://img.shields.io/badge/📍_Da_Nang,_Vietnam-blue?style=flat)](https://maps.google.com/?q=Da+Nang,+Vietnam)
+[![Email](https://img.shields.io/badge/📧_nguyennhutrong69@gmail.com-red?style=flat)](mailto:nguyennhutrong69@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-nguyennhutrong-181717?style=flat&logo=github)](https://github.com/nguyennhutrong)
 
 ---
 
-## About Me
+## 🧑‍💻 About Me
 
 Backend Web Developer with 4+ years of experience specializing in **PHP** and the **Laravel** framework, with additional hands-on experience in **Node.js**. Strong background in database design, system architecture, and building scalable e-commerce platforms, including payment gateway integrations.
 
@@ -16,7 +18,7 @@ Currently based in Da Nang and planning to relocate to Ho Chi Minh City in April
 
 ---
 
-## Work Experience
+## 💼 Work Experience
 
 ### Software Engineer — SupremeTech
 **Jun 2023 — Present**
@@ -38,7 +40,7 @@ Currently based in Da Nang and planning to relocate to Ho Chi Minh City in April
 
 ---
 
-## Projects
+## 🚀 Projects
 
 ### SBJ Cart — Aug 2023 – Present
 > Cart management, payment processing, and order information system · Team of 10–30
@@ -78,15 +80,23 @@ Currently based in Da Nang and planning to relocate to Ho Chi Minh City in April
 
 ---
 
-## Skills
+## 🛠️ Skills
 
 ### Technical
-| Category | Technologies |
-|---|---|
-| **Backend** | PHP, Laravel, Node.js, MySQL, API Design |
-| **Frontend** | HTML, CSS, JavaScript |
-| **Cloud & DevOps** | AWS (S3, ECS, RDS, ElastiCache, CloudFront), Docker, Redis, Elasticsearch |
-| **Tools** | Git, GitHub, CloudWatch |
+
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
+![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+![Elasticsearch](https://img.shields.io/badge/Elasticsearch-005571?style=for-the-badge&logo=elasticsearch&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 
 ### Languages
 - **Vietnamese** — Native
@@ -94,16 +104,15 @@ Currently based in Da Nang and planning to relocate to Ho Chi Minh City in April
 
 ---
 
-## Education
+## 🎓 Education
 
 ### Duy Tan University — 2018 – 2022
 **Software Technology** · GPA: 3.40 / 4.0
 
 ---
 
-## Contact
+## 📬 Contact
 
 - 📧 **Email:** nguyennhutrong69@gmail.com
-- 📞 **Phone:** 0948 847 448
 - 📍 **Location:** Da Nang, Vietnam
 
