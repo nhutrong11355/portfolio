@@ -43,7 +43,7 @@
 </template>
 
 <script setup>
-import profileImg from '../assets/avatar.jpg'
+import profileImg from '../assets/avatar.png'
 import { useScrollReveal } from '../composables/useScrollReveal'
 const { elementRef, isVisible } = useScrollReveal({ threshold: 0.1 })
 </script>
