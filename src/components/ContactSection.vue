@@ -80,7 +80,7 @@
             </div>
             <div>
               <h4>Location</h4>
-              <p>Đà Nẵng, Vietnam</p>
+              <p>Ho Chi Minh City, Vietnam</p>
             </div>
           </div>
         </div>

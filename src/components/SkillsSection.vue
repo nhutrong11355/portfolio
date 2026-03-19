@@ -8,7 +8,8 @@
           <div class="skill-items">
             <div v-for="skill in category.skills" :key="skill.name" class="skill-item">
               <div class="skill-header">
-                <span class="skill-icon">{{ skill.icon }}</span>
+                <span v-if="skill.img" class="skill-icon"><img :src="skill.img" :alt="skill.name" /></span>
+                <span v-else class="skill-icon">{{ skill.icon }}</span>
                 <span class="skill-name">{{ skill.name }}</span>
                 <span class="skill-level">{{ skill.level }}%</span>
               </div>
@@ -25,6 +26,7 @@
 
 <script setup>
 import { useScrollReveal } from '../composables/useScrollReveal'
+import laravelIcon from '../assets/laravel.svg'
 const { elementRef: titleRef, isVisible: titleVisible } = useScrollReveal()
 const { elementRef: gridRef, isVisible: gridVisible } = useScrollReveal({ threshold: 0.1 })
 
@@ -33,8 +35,7 @@ const categories = [
     title: '🔧 Backend & Frameworks',
     skills: [
       { name: 'PHP', icon: '🐘', level: 90 },
-      { name: 'Laravel', icon: '🔴', level: 90 },
-      { name: 'Node.js', icon: '🟢', level: 60 },
+      { name: 'Laravel', img: laravelIcon, level: 90 },
       { name: 'MySQL', icon: '🗄️', level: 85 },
       { name: 'API Design', icon: '🔌', level: 85 },
     ]
@@ -50,19 +51,17 @@ const categories = [
   {
     title: '☁️ Cloud & DevOps',
     skills: [
-      { name: 'AWS (S3, ECS, RDS)', icon: '☁️', level: 80 },
-      { name: 'Docker', icon: '🐳', level: 75 },
-      { name: 'Redis', icon: '🔴', level: 75 },
-      { name: 'Elasticsearch', icon: '🔍', level: 80 },
-      { name: 'CloudFront', icon: '🌐', level: 70 },
+      { name: 'AWS (S3, CloudFront, ECS)', icon: '☁️', level: 60 },
+      { name: 'Redis (caching, session, queue)', icon: '🔴', level: 75 },
+      { name: 'Docker', icon: '🐳', level: 50 },
     ]
   },
   {
     title: '🛠️ Tools & Other',
     skills: [
       { name: 'Git / GitHub', icon: '📦', level: 85 },
-      { name: 'ElastiCache', icon: '⚡', level: 70 },
-      { name: 'CloudWatch', icon: '📊', level: 70 },
+      { name: 'System Design', icon: '🏗️', level: 75 },
+      { name: 'AI', icon: '🤖', level: 65 },
     ]
   }
 ]
@@ -136,6 +135,7 @@ const categories = [
   margin-bottom: 0.4rem;
 }
 .skill-icon { font-size: 1.1rem; }
+.skill-icon img { width: 1.1rem; height: 1.1rem; vertical-align: middle; }
 .skill-name {
   color: #cbd5e1;
   font-size: 0.95rem;

@@ -11,7 +11,7 @@
         <h1 class="hero-name animate-item">Nguyen Nhu Trong</h1>
         <h2 class="hero-title animate-item">Software Engineer</h2>
         <p class="hero-desc">
-          Backend developer with 4+ years of experience specializing in PHP, Laravel, and cloud-based solutions.
+          Backend developer with 4 years of experience specializing in PHP, Laravel, and cloud-based solutions.
           Passionate about building scalable e-commerce platforms and robust APIs.
         </p>
         <div class="hero-cta">

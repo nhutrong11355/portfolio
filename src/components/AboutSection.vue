@@ -5,7 +5,7 @@
       <div class="about-content">
         <div class="about-text reveal-left" ref="textRef" :class="{ visible: textVisible }">
           <p>
-            I'm a <strong>Backend Web Developer</strong> with 4+ years of experience specializing in
+            I'm a <strong>Backend Web Developer</strong> with 4 years of experience specializing in
             <strong>PHP</strong> and the <strong>Laravel</strong> framework, with additional hands-on experience
             in <strong>Node.js</strong>. I have a strong background in database design, system architecture,
             and building scalable e-commerce platforms, including payment gateway integrations.
@@ -32,7 +32,7 @@
           <div class="detail-card">
             <div class="detail-icon">💼</div>
             <h3>Experience</h3>
-            <p class="detail-main">4+ Years</p>
+            <p class="detail-main">4 Years</p>
             <p class="detail-sub">Backend Development</p>
             <p class="detail-sub">E-commerce & APIs</p>
           </div>
