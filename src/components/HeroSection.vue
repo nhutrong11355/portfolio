@@ -43,7 +43,7 @@
 </template>
 
 <script setup>
-import profileImg from '../assets/profile.png'
+import profileImg from '../assets/avatar.jpg'
 import { useScrollReveal } from '../composables/useScrollReveal'
 const { elementRef, isVisible } = useScrollReveal({ threshold: 0.1 })
 </script>
@@ -196,19 +196,19 @@ const { elementRef, isVisible } = useScrollReveal({ threshold: 0.1 })
   flex: 0 0 auto;
 }
 .image-wrapper {
-  width: 320px;
-  height: 320px;
-  border-radius: 20px;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
   overflow: hidden;
-  border: 3px solid rgba(139, 92, 246, 0.3);
+  border: 4px solid rgba(139, 92, 246, 0.3);
   box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
   position: relative;
 }
 .image-wrapper::before {
   content: '';
   position: absolute;
-  inset: -3px;
-  border-radius: 22px;
+  inset: -4px;
+  border-radius: 50%;
   background: linear-gradient(135deg, #6366f1, #8b5cf6, #6366f1);
   z-index: -1;
   animation: borderRotate 4s linear infinite;
@@ -295,6 +295,6 @@ const { elementRef, isVisible } = useScrollReveal({ threshold: 0.1 })
   .hero-desc { margin-left: auto; margin-right: auto; }
   .hero-cta { justify-content: center; }
   .hero-social { justify-content: center; }
-  .image-wrapper { width: 220px; height: 220px; }
+  .image-wrapper { width: 200px; height: 200px; }
 }
 </style>
