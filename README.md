@@ -3,7 +3,7 @@
 **💼 Software Engineer**
 
 [![Location](https://img.shields.io/badge/📍_Ho_Chi_Minh_City,_Vietnam-blue?style=flat)](https://maps.google.com/?q=Ho+Chi+Minh+City,+Vietnam)
-[![Email](https://img.shields.io/badge/📧_nguyennhutrong69@gmail.com-red?style=flat)](mailto:nguyennhutrong69@gmail.com)
+[![Email](https://img.shields.io/badge/📧_nguyennhutrong2711@gmail.com-red?style=flat)](mailto:nguyennhutrong2711@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-nguyennhutrong-181717?style=flat&logo=github)](https://github.com/nguyennhutrong)
 
 ---
@@ -116,6 +116,6 @@ Currently based in Da Nang and planning to relocate to Ho Chi Minh City in April
 
 ## 📬 Contact
 
-- 📧 **Email:** nguyennhutrong69@gmail.com
+- 📧 **Email:** nguyennhutrong2711@gmail.com
 - 📍 **Location:** Ho Chi Minh City, Vietnam
 

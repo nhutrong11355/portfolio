@@ -62,7 +62,7 @@
             </div>
             <div>
               <h4>Email</h4>
-              <a href="mailto:nguyennhutrong69@gmail.com">nguyennhutrong69@gmail.com</a>
+              <a href="mailto:nguyennhutrong2711@gmail.com">nguyennhutrong2711@gmail.com</a>
             </div>
           </div>
           <div class="info-card">

@@ -27,41 +27,48 @@
 <script setup>
 import { useScrollReveal } from '../composables/useScrollReveal'
 import laravelIcon from '../assets/laravel.svg'
+import vueIcon from '../assets/vue.svg'
 const { elementRef: titleRef, isVisible: titleVisible } = useScrollReveal()
 const { elementRef: gridRef, isVisible: gridVisible } = useScrollReveal({ threshold: 0.1 })
 
 const categories = [
   {
-    title: '🔧 Backend & Frameworks',
+    title: '🔧 Backend & API',
     skills: [
       { name: 'PHP', icon: '🐘', level: 90 },
       { name: 'Laravel', img: laravelIcon, level: 90 },
-      { name: 'MySQL', icon: '🗄️', level: 85 },
+      { name: 'Slim', icon: '🪶', level: 80 },
+      { name: 'Microservices', icon: '🧩', level: 80 },
       { name: 'API Design', icon: '🔌', level: 85 },
     ]
   },
   {
-    title: '🎨 Frontend',
+    title: '🎨 Frontend & UI',
     skills: [
+      { name: 'Vue.js', img: vueIcon, level: 85 },
       { name: 'HTML', icon: '📄', level: 80 },
       { name: 'CSS', icon: '🎨', level: 75 },
       { name: 'JavaScript', icon: '⚡', level: 75 },
+      { name: 'Figma', icon: '🎛️', level: 70 },
     ]
   },
   {
     title: '☁️ Cloud & DevOps',
     skills: [
-      { name: 'AWS (S3, CloudFront, ECS)', icon: '☁️', level: 60 },
-      { name: 'Redis (caching, session, queue)', icon: '🔴', level: 75 },
-      { name: 'Docker', icon: '🐳', level: 50 },
+      { name: 'AWS (S3, ECS)', icon: '☁️', level: 65 },
+      { name: 'Docker', icon: '🐳', level: 60 },
+      { name: 'Redis', icon: '🔴', level: 75 },
+      { name: 'GitLab CI/CD', icon: '🧪', level: 75 },
+      { name: 'System Design', icon: '🏗️', level: 75 },
     ]
   },
   {
-    title: '🛠️ Tools & Other',
+    title: '🛠️ Tools & Workflow',
     skills: [
       { name: 'Git / GitHub', icon: '📦', level: 85 },
-      { name: 'System Design', icon: '🏗️', level: 75 },
-      { name: 'AI', icon: '🤖', level: 65 },
+      { name: 'GitLab', icon: '🧰', level: 80 },
+      { name: 'Agile & Scrum', icon: '⏱️', level: 70 },
+      { name: 'Testing & Debugging', icon: '🧩', level: 70 },
     ]
   }
 ]

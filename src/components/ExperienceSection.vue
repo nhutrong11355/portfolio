@@ -29,8 +29,14 @@ const { elementRef: timelineRef, isVisible: timelineVisible } = useScrollReveal(
 const jobs = [
   {
     title: 'Software Engineer',
+    company: 'VNPT-media',
+    period: 'Jun 2026 — Present',
+    description: 'Backend Developer responsible for developing telecommunications service applications using a microservices architecture.'
+  },
+  {
+    title: 'Software Engineer',
     company: 'SupremeTech',
-    period: 'Jun 2023 — Present',
+    period: 'Jun 2023 — Apr 2026',
     description: 'Leading backend development for e-commerce platforms including SBJ Cart. Building APIs for cart management, payment processing (GMO gateway, Star points-based payments), SSO login, and product recommendation systems. Working with AWS services (S3, CloudFront, Redis, ECS) and Elasticsearch.'
   },
   {

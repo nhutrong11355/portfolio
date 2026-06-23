@@ -32,7 +32,7 @@
           <div class="detail-card">
             <div class="detail-icon">💼</div>
             <h3>Experience</h3>
-            <p class="detail-main">4 Years</p>
+            <p class="detail-main">4 Years+</p>
             <p class="detail-sub">Backend Development</p>
             <p class="detail-sub">E-commerce & APIs</p>
           </div>
